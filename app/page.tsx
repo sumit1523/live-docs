@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import React from "react";
 
 const page = () => {
-  return <div><Button>Click Me</Button>></div>;
+  return <Button>Click me</Button>;
 };
 
 export default page;
