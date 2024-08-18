@@ -21,7 +21,7 @@ declare global {
         id: string;
         name: string;
         email: string;
-        avatart: string;
+        avatar: string;
         color: string;
       };
     };
