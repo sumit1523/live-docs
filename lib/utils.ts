@@ -7,6 +7,8 @@ export function cn(...inputs: ClassValue[]) {
 
 export const parseStringify = (value: any) => JSON.parse(JSON.stringify(value));
 
+export type UserType = "creator" | "editor" | "viewer"; // Ensure UserType is defined
+
 export const getAccessType = (userType: UserType) => {
   switch (userType) {
     case "creator":

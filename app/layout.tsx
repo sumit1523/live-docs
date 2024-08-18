@@ -10,9 +10,9 @@ const fontSans = FontSans({
   variable: "--font-sans",
 });
 
-export const metaData: Metadata = {
+export const metadata: Metadata = {
   title: "LiveDocs",
-  description: "ypur go-to collabrative editor",
+  description: "your go-to collaborative editor",
 };
 
 export default function RootLayout({
@@ -29,7 +29,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        ...
+        {children}
       </body>
     </html>
   );
